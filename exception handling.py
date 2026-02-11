@@ -9,8 +9,8 @@ class Library:
             self.conn = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="your_password",   # change this
-                database="library_db"
+                password="Darshu@9845,   # change this
+                database="exception handling"
             )
             self.cursor = self.conn.cursor()
             print("Connected to Library Database Successfully!\n")
@@ -130,3 +130,4 @@ if __name__ == "__main__":
 
         except Exception as e:
             print("Unexpected Error:", e)
+
